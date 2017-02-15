@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const app = express();
 
-app.get('/', function (req, res) {
+app.get('/dirinfo', function (req, res) {
     var generateDirectoryInfo = function(dir, done) {
         var node = {
             data: [],
