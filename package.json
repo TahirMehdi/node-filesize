@@ -1,0 +1,23 @@
+{
+  "name": "node-filesize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitaulshin/node-filesize.git"
+  },
+  "author": "Nikita Ulshin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikitaulshin/node-filesize/issues"
+  },
+  "homepage": "https://github.com/nikitaulshin/node-filesize#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "fs": "0.0.1-security"
+  }
+}
